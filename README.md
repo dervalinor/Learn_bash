@@ -1,2 +1,1 @@
-# Learn_bash
-Learn BASH scripting language
+# you need to learn BASH Scripting RIGHT NOW - youtube channel NetworkChuck
