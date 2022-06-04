@@ -19,3 +19,8 @@ echo "you are learning to hack in linux"
 sleep 3
 
 echo "Congratulations friend !!!"
+
+#A different way to run our script 
+#ls -l --- we can see the permissions of the script (w write, r  read and x execute, + give permissions, - remove permissions)
+#chmod +x filename.sh --- we must give execution permissions
+#./filename -- we can execute the script
