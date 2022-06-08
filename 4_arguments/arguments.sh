@@ -5,10 +5,14 @@
 
 
 name=$1 #the variable take the value of the first argument
+quality=$2 #take value of second argument
 
-echo "$name talks to Jocelyn about writting"
+echo "$name loves the  writting"
 
 sleep 2
 
-echo "$name listen to Jocelyn when she talks about your writting"
+echo "$name is perfect girl"
 
+sleep 2
+
+echo "Jocelyn is $quality girl"
