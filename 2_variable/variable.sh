@@ -3,9 +3,10 @@
 #variable: storage in memory to store a known or unknown amount of information
 #variablename = "value"
 
+#create the variable
 Name="Elliot"
 
-#show a variable - $variablename
+#use variable - $variablename
 echo "Hello $Name"
 
 sleep 2
