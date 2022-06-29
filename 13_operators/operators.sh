@@ -33,12 +33,16 @@ if (($election == 0 && $user == "root"))
     echo "All updated"
     exit 1 #exit of the script
 
-elif (($user != "root")) #here no use "then"
-    echo "You are not root user: "
+    if (($user != "root")) 
+    then 
+        echo "You are not root user: "
+    fi
 
-elif (($election==1 || $election==2)) 
-    echo "No updated your system"
-
+    if (($election==1 || $election==2)) 
+    then #ALWAYS put then for start conditional
+        echo "No updated your system"
+    fi #ALWAYS put fi close conditional
 else 
-    exit 1
+    echo "Error, no exist this option"
+    exit 0
 fi
